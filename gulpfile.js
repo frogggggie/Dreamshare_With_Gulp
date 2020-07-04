@@ -74,8 +74,8 @@ function images() {
 
 
 function watch() {
-    gulp.watch(paths.images.src, images)
     gulp.watch(paths.styles.src, styles)
+    gulp.watch(paths.images.src, images)
     gulp.watch(paths.html.src, html)
     gulp.watch('./app/index.html', gulp.series(browserSyncReload))
 }
