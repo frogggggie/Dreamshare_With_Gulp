@@ -5,8 +5,6 @@ const cssnano = require('gulp-cssnano');
 const  rename = require("gulp-rename");
 
 const image = require('gulp-image');
-const {series} = require('gulp');
-
 const browser = require('browser-sync').create();
 
 
